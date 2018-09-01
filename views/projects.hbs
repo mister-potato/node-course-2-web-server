@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Some Webiste</title>
+</head>
+<body>
+
+    {{> header }}
+
+
+        <ul>
+            {{#each projects}}
+                <li>{{this.name}}</li>
+            {{/each}}
+        </ul>
+
+
+    {{> footer }}
+
+</body>
+</html>
